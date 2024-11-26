@@ -10,7 +10,7 @@ public class testeConexaoBD {
      		String driver = "org.postgresql.Driver";
 	        String user   = "postgres";
 	        String password = "postgres";
-			String url      = "jdbc:postgresql://localhost:5432/DEALERSHIP_DATABASE";
+			String url      = "jdbc:postgresql://localhost:5432/dealership_database";
 
 	      try {
 	        Class.forName(driver);

@@ -18,7 +18,7 @@ import dealership.entities.TypeSale;
 public class InsertData {
 
 	public static void main(String[] args) {
-		String url = "jdbc:postgresql://localhost:5432/DEALERSHIP_DATABASE";
+		String url = "jdbc:postgresql://localhost:5432/dealership_database";
 		String user = "postgres";
 		String password = "postgres";
 		
@@ -43,7 +43,7 @@ public class InsertData {
 	}
 	
 	public static void insertAddress(Address address) {
-	    String url = "jdbc:postgresql://localhost:5432/DEALERSHIP_DATABASE";
+	    String url = "jdbc:postgresql://localhost:5432/dealership_database";
 	    String user = "postgres";
 	    String password = "postgres";
 
@@ -70,7 +70,7 @@ public class InsertData {
 	}
 	
 	public static void insertCar(Car car) {
-	    String url = "jdbc:postgresql://localhost:5432/DEALERSHIP_DATABASE";
+	    String url = "jdbc:postgresql://localhost:5432/dealership_database";
 	    String user = "postgres";
 	    String password = "postgres";
 
@@ -94,7 +94,7 @@ public class InsertData {
 	}
 
 	public static void insertCustomer(Customer customer) {
-	    String url = "jdbc:postgresql://localhost:5432/DEALERSHIP_DATABASE";
+	    String url = "jdbc:postgresql://localhost:5432/dealership_database";
 	    String user = "postgres";
 	    String password = "postgres";
 
@@ -114,7 +114,7 @@ public class InsertData {
 	    }
 	}
 	public static void insertCustomerCard(CustomerCard customerCard) {
-	    String url = "jdbc:postgresql://localhost:5432/DEALERSHIP_DATABASE";
+	    String url = "jdbc:postgresql://localhost:5432/dealership_database";
 	    String user = "postgres";
 	    String password = "postgres";
 
@@ -138,7 +138,7 @@ public class InsertData {
 	}
 
 	public static void insertMechanic(Mechanic mechanic) {
-	    String url = "jdbc:postgresql://localhost:5432/DEALERSHIP_DATABASE";
+	    String url = "jdbc:postgresql://localhost:5432/dealership_database";
 	    String user = "postgres";
 	    String password = "postgres";
 
@@ -159,7 +159,7 @@ public class InsertData {
 	}
 
 	public static void insertPartCar(PartCar partCar) {
-	    String url = "jdbc:postgresql://localhost:5432/DEALERSHIP_DATABASE";
+	    String url = "jdbc:postgresql://localhost:5432/dealership_database";
 	    String user = "postgres";
 	    String password = "postgres";
 
@@ -182,7 +182,7 @@ public class InsertData {
 
 	
 	public static void insertSale(Sale sale) {
-	    String url = "jdbc:postgresql://localhost:5432/DEALERSHIP_DATABASE";
+	    String url = "jdbc:postgresql://localhost:5432/dealership_database";
 	    String user = "postgres";
 	    String password = "postgres";
 
@@ -205,7 +205,7 @@ public class InsertData {
 	}
 
 	public static void insertSeller(Seller seller) {
-	    String url = "jdbc:postgresql://localhost:5432/DEALERSHIP_DATABASE";
+	    String url = "jdbc:postgresql://localhost:5432/dealership_database";
 	    String user = "postgres";
 	    String password = "postgres";
 
@@ -226,7 +226,7 @@ public class InsertData {
 	}
 
 	public static void insertService(Service service) {
-	    String url = "jdbc:postgresql://localhost:5432/DEALERSHIP_DATABASE";
+	    String url = "jdbc:postgresql://localhost:5432/dealership_database";
 	    String user = "postgres";
 	    String password = "postgres";
 
@@ -252,7 +252,7 @@ public class InsertData {
 	}
 	
 	public static void insertTypeSale(TypeSale typeSale) {
-	    String url = "jdbc:postgresql://localhost:5432/DEALERSHIP_DATABASE";
+	    String url = "jdbc:postgresql://localhost:5432/dealership_database";
 	    String user = "postgres";
 	    String password = "postgres";
 
